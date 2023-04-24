@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/goodmorning-form/static/css/main.b9dd4139.css",
+    "main.js": "/goodmorning-form/static/js/main.cbb16383.js",
+    "static/media/cardbg.jpg": "/goodmorning-form/static/media/cardbg.1e550c51a510b01f7ab5.jpg",
+    "static/media/Hortensia.woff": "/goodmorning-form/static/media/Hortensia.947242d3e6b7921d998b.woff",
+    "static/media/save.svg": "/goodmorning-form/static/media/save.dcb8e850a0830944aa61037d8f5cb109.svg",
+    "static/media/clear.svg": "/goodmorning-form/static/media/clear.5a0363799b35176841954533d15af9b7.svg",
+    "static/media/yt.svg": "/goodmorning-form/static/media/yt.6231b5115440719a042662824c35bdd2.svg",
+    "index.html": "/goodmorning-form/index.html",
+    "main.b9dd4139.css.map": "/goodmorning-form/static/css/main.b9dd4139.css.map",
+    "main.cbb16383.js.map": "/goodmorning-form/static/js/main.cbb16383.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9dd4139.css",
+    "static/js/main.cbb16383.js"
+  ]
+}
