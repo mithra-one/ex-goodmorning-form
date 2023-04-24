@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Hortensia";
+  src: local("Hortensia"), url("./font/Hortensia.woff") format("woff");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .inputBlock input {
+  box-shadow: inset 0 -4px 12px -2px rgb(241, 91, 158);
+}
+.inputBlock textarea {
+  box-shadow: inset 0 -4px 12px -2px rgb(241, 91, 158);
+} */
+
+.inputBlock input {
+  box-shadow: inset 0 -4px 3px -2px rgb(241, 91, 158);
+}
+.inputBlock textarea {
+  box-shadow: inset 0 -4px 3px -2px rgb(241, 91, 158);
+}
+.download:hover {
+  background-color: #bf0c87 !important ;
+}
+.download:hover svg path {
+  fill: #fff !important ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#container {
+  /* float: left;
+  /* padding: 1em; */
+  /* height: 100%; */
+  /*  width: 100%; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.uploader label {
+  border-color: #bf0c87 !important;
+}
+.uploader label svg path {
+  fill: #bf0c87 !important;
+}
+.uploader label div span {
+  color: #bf0c87 !important;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.delPhoto svg {
+  width: 25px;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delPhoto:hover {
+  cursor: pointer;
 }
