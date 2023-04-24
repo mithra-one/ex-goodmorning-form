@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/goodmorning-form/static/css/main.4ecaea61.css",
-    "main.js": "/goodmorning-form/static/js/main.019d6617.js",
-    "static/media/cardbg.jpg": "/goodmorning-form/static/media/cardbg.1e550c51a510b01f7ab5.jpg",
+    "main.css": "/goodmorning-form/static/css/main.51f34448.css",
+    "main.js": "/goodmorning-form/static/js/main.963a3f1e.js",
+    "static/media/cardbg.jpg": "/goodmorning-form/static/media/cardbg.d4c16409a7323d139733.jpg",
     "static/media/Hortensia.woff": "/goodmorning-form/static/media/Hortensia.947242d3e6b7921d998b.woff",
     "static/media/save.svg": "/goodmorning-form/static/media/save.dcb8e850a0830944aa61037d8f5cb109.svg",
     "static/media/clear.svg": "/goodmorning-form/static/media/clear.5a0363799b35176841954533d15af9b7.svg",
     "index.html": "/goodmorning-form/index.html",
     "static/media/yt.svg": "/goodmorning-form/static/media/yt.6231b5115440719a042662824c35bdd2.svg",
-    "main.4ecaea61.css.map": "/goodmorning-form/static/css/main.4ecaea61.css.map",
-    "main.019d6617.js.map": "/goodmorning-form/static/js/main.019d6617.js.map"
+    "main.51f34448.css.map": "/goodmorning-form/static/css/main.51f34448.css.map",
+    "main.963a3f1e.js.map": "/goodmorning-form/static/js/main.963a3f1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ecaea61.css",
-    "static/js/main.019d6617.js"
+    "static/css/main.51f34448.css",
+    "static/js/main.963a3f1e.js"
   ]
 }
