@@ -354,7 +354,7 @@ function App() {
       const dataURL = canvas.toDataURL("image/png");
       const downloadLink = document.createElement("a");
       downloadLink.href = dataURL;
-      downloadLink.download = `${question01}_card.png`;
+      downloadLink.download = `${question01}_анкета.png`;
       downloadLink.click();
     });
   };
@@ -1552,7 +1552,10 @@ function App() {
         id="download"
         style={{
           backgroundColor: "transparent",
-          padding: "10px 20px",
+          // padding: "10px 20px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
           border: "3px solid #a90a77",
           borderRadius: "150px",
           cursor: "pointer",
@@ -1560,8 +1563,8 @@ function App() {
           right: "125px",
           bottom: "25px",
           zIndex: "999",
-          height: "100px",
-          width: "100px",
+          height: "60px",
+          width: "60px",
         }}
       >
         <SaveSVG />
