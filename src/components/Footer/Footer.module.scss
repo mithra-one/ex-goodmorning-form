@@ -1,0 +1,64 @@
+@import "../../responsiveMixins.scss";
+
+.footerWrapper {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  .footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    @include xs {
+      max-width: 290px;
+    }
+    @include sm {
+      max-width: 320px;
+    }
+    @include smd {
+      max-width: 550px;
+    }
+    @include md {
+      max-width: 700px;
+    }
+    @include lg {
+      max-width: 900px;
+    }
+    @include xl {
+      max-width: 900px;
+    }
+    @include xxl {
+      max-width: 900px;
+    }
+    @include xxxl {
+      max-width: 900px;
+    }
+    @include landscape {
+      @include mxh600mxw900 {
+        max-width: 700px;
+      }
+      @include mxh400mxw600 {
+        max-width: 700px;
+      }
+    }
+    @include landscape {
+      @include mxh400mxw600 {
+        max-width: 530px;
+      }
+    }
+    .copy {
+      color: $light;
+      font-size: 9px;
+      font-weight: 600;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      font-family: Arial, Helvetica, sans-serif;
+      a {
+        text-decoration: underline;
+        color: inherit;
+      }
+    }
+  }
+}

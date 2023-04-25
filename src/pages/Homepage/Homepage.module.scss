@@ -1,0 +1,228 @@
+@import "../../responsiveMixins.scss";
+
+.pageWrapper {
+  width: 100%;
+  height: 100%;
+  .pageContent {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @include xs {
+      max-width: 290px;
+    }
+    @include sm {
+      max-width: 320px;
+    }
+    @include smd {
+      max-width: 550px;
+    }
+    @include md {
+      max-width: 700px;
+    }
+    @include lg {
+      max-width: 900px;
+    }
+    @include xl {
+      max-width: 900px;
+    }
+    @include xxl {
+      max-width: 900px;
+    }
+    @include xxxl {
+      max-width: 900px;
+    }
+    @include landscape {
+      @include mxh600mxw900 {
+        max-width: 700px;
+      }
+      @include mxh400mxw750 {
+        max-width: 600px;
+      }
+      @include mxh400mxw600 {
+        max-width: 530px;
+      }
+    }
+
+    .inputBlock {
+      @include xs {
+        font-size: 14px !important;
+      }
+      @include sm {
+        font-size: 14px !important;
+      }
+      input {
+        box-shadow: inset 0 -4px 3px -2px rgb(241, 91, 158);
+      }
+      textarea {
+        box-shadow: inset 0 -4px 3px -2px rgb(241, 91, 158);
+      }
+    }
+
+    .uploader {
+      width: 100%;
+      margin-bottom: 200px;
+      label {
+        border-color: #bf0c87 !important;
+        min-width: strecth;
+        min-width: fill-available;
+        min-width: -webkit-fill-available;
+        svg {
+          path {
+            fill: #bf0c87 !important;
+          }
+        }
+        div {
+          span {
+            color: #bf0c87 !important;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .delPhoto {
+      &:hover {
+        cursor: pointer;
+        svg {
+          transform: scale(1.2);
+        }
+      }
+      svg {
+        transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+        width: 25px;
+        height: auto;
+      }
+    }
+
+    .download {
+      transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+      &:hover {
+        background-color: #bf0c87 !important;
+        svg {
+          path {
+            fill: #fff !important ;
+          }
+        }
+      }
+      svg {
+        transform: scale(0.65);
+      }
+    }
+
+    // .content {
+    //   width: 100%;
+    //   display: flex;
+    //   align-items: flex-start;
+    //   column-gap: 60px;
+    //   padding: 50px 0 40px;
+    //   @include xs {
+    //     flex-direction: column;
+    //     row-gap: 15px;
+    //     padding: 20px 0 20px;
+    //   }
+    //   @include sm {
+    //     flex-direction: column;
+    //     row-gap: 20px;
+    //     padding: 20px 0 20px;
+    //   }
+    //   @include smd {
+    //     flex-direction: column;
+    //     row-gap: 20px;
+    //     padding: 20px 0 0px;
+    //   }
+    //   @include md {
+    //     column-gap: 20px;
+    //     padding: 30px 0 15px;
+    //   }
+    //   @include lg {
+    //     column-gap: 30px;
+    //     padding: 30px 0 15px;
+    //   }
+    //   @include landscape {
+    //     @include mxh600mxw750 {
+    //       padding: 30px 0 5px;
+    //     }
+    //     @include mxh400mxw900 {
+    //       padding: 30px 0 5px;
+    //       row-gap: 30px;
+    //     }
+    //     @include mxh400mxw750 {
+    //       padding: 30px 0 5px;
+    //       row-gap: 30px;
+    //     }
+    //     @include mxh400mxw600 {
+    //       padding: 30px 0 5px;
+    //       flex-direction: column;
+    //       row-gap: 20px;
+    //     }
+    //   }
+    //   .rating {
+    //     width: 780px;
+    //     @include xs {
+    //       max-width: 100%;
+    //     }
+    //     @include sm {
+    //       max-width: 100%;
+    //     }
+    //     @include smd {
+    //       max-width: 100%;
+    //     }
+    //     @include md {
+    //       max-width: 460px;
+    //     }
+    //     @include lg {
+    //       max-width: 590px;
+    //     }
+    //     @include xxxl {
+    //       width: 914px;
+    //     }
+    //     @include landscape {
+    //       @include mxh600mxw900 {
+    //         max-width: 458px;
+    //       }
+    //       @include mxh400mxw750 {
+    //         max-width: 600px;
+    //       }
+    //       @include mxh400mxw600 {
+    //         max-width: 530px;
+    //       }
+    //     }
+    //   }
+    //   .experts {
+    //     width: 360px;
+    //     @include xs {
+    //       width: 100%;
+    //     }
+    //     @include sm {
+    //       width: 100%;
+    //     }
+    //     @include smd {
+    //       width: 100%;
+    //     }
+    //     @include md {
+    //       max-width: 220px;
+    //     }
+    //     @include lg {
+    //       max-width: 280px;
+    //     }
+    //     @include xxxl {
+    //       width: 426px;
+    //     }
+    //     @include landscape {
+    //       @include mxh600mxw900 {
+    //         max-width: 213px;
+    //       }
+    //       @include mxh400mxw750 {
+    //         max-width: 600px;
+    //       }
+    //       @include mxh400mxw600 {
+    //         max-width: 530px;
+    //         min-width: 530px;
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}
